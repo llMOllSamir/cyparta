@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-[#E9E9E9] flex justify-between items-stretch min-h-screen
+}
+
+main {
+    @apply grow w-full flex justify-stretch items-stretch md:mt-0 mt-12
+}
